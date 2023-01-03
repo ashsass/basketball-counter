@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 100vh;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+#home-score, #guest-score {
+    background-color: #000000;
+    color: #F94F6D;
+    width: 140px;
+    text-align: center;
+    font-size: 90px;
+    margin: 0;
+}
+
+button {
+    width: 35px;
+    margin: 26px 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 7px;
+}
